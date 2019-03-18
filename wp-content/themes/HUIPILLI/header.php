@@ -46,12 +46,48 @@
 	<?php wp_head(); ?>
 </head>
 <body>
+	<div class="header">
+		<div class="container">
+			<div class="header-left">
+				
+				<?php 
+		        	wp_nav_menu(
+		        		array(
+		        			'theme_location' => 'menu-left',
+		        			'container_class' => 'top-menu',
+		        			'items_wrap' => '<ul>%3$s</ul>',
+		        		)
+		        	); 
+		        ?>			 
+				
+			</div>
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt=""></a>
+			</div>
+			<div class="header-right">
+				<?php 
+		        	wp_nav_menu(
+		        		array(
+		        			'theme_location' => 'menu-right',
+		        			'container_class' => 'top-menu',
+		        			'items_wrap' => '<ul>%3$s</ul>',
+		        		)
+		        	); 
+		        ?>		 
+				
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+
+
  	<nav>
       <ul class="main-nav">
         <?php 
         	wp_nav_menu(
         		array(
-        			'theme_location' => 'navegation'
+        			'theme_location' => 'redes-sociales',
+        			'container_class'   => ""
         		)
         	); 
         ?>

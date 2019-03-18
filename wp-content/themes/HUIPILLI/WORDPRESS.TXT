@@ -44,6 +44,28 @@ add_action('init','mis_widgets');
 INTEGRAR EL MENU EN EL HEADER.PHP
 -------------------------------------------------------
 
+
+<?php 
+	wp_nav_menu(
+		array(
+			'theme_location' => 'navegation',
+			'container_class' => 'top-menu',
+			'items_wrap' => '<ul>%3$s</ul>',
+		)
+	); 
+?>
+
+<?php 
+	wp_nav_menu(
+		array(
+			'theme_location' => 'redes-sociales',
+			'container_class'   => ""
+		)
+	); 
+?>
+
+
+
 <?php
 	wp_nav_menu(array $args = array(
 	    'menu'              => "", // (int|string|WP_Term) Desired menu. Accepts a menu ID, slug, name, or object.
@@ -65,3 +87,37 @@ INTEGRAR EL MENU EN EL HEADER.PHP
 	    'item_spacing'      => "", // (string) Whether to preserve whitespace within the menu's HTML. Accepts 'preserve' or 'discard'. Default 'preserve'.
 	));
 ?>
+
+
+====================================================
+PERSONALIZANDO MENUS CSS
+
+
+// agregando clases a los enlaces etiqueta a 
+
+function add_menuclass($ulclass, $args) {
+
+	$classhref = 'e';
+
+	if ('navegation' === $args->theme_location) {
+        $classhref = 'scroll';
+        
+    }
+
+   	return preg_replace('/<a /', '<a class="'.$classhref.'"', $ulclass);
+}
+add_filter('wp_nav_menu','add_menuclass',1,3);
+
+
+
+// agregando clases a los elementos li del menu
+
+function add_classes_on_li($classes, $item, $args) {
+
+	if ('navegation' === $args->theme_location) {
+        $classes[] = 'test_class';
+    }
+	
+	return $classes;
+}
+add_filter('nav_menu_css_class','add_classes_on_li',1,3);
