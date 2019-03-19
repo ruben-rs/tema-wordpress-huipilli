@@ -1,0 +1,45 @@
+2019-03-18T23:53:54+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function special_nav_class(), 2 passed in /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-hook.php on line 288 and exactly 3 expected in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/functions.php:92
+Stack trace:
+#0 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-hook.php(288): special_nav_class(Array, Object(WP_Post))
+#1 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-walker-nav-menu.php(153): apply_filters('nav_menu_css_cl...', Array, Object(WP_Post), Object(stdClass), 0)
+#3 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-walker.php(145): Walker_Nav_Menu->start_el('', Object(WP_Post), 0, Object(stdClass))
+#4 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '')
+#5 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/nav-menu-template.p in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/functions.php on line 92
+
+2019-03-18T23:54:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function special_nav_class(), 2 passed in /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-hook.php on line 288 and exactly 3 expected in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/functions.php:92
+Stack trace:
+#0 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-hook.php(288): special_nav_class(Array, Object(WP_Post))
+#1 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-walker-nav-menu.php(153): apply_filters('nav_menu_css_cl...', Array, Object(WP_Post), Object(stdClass), 0)
+#3 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-walker.php(145): Walker_Nav_Menu->start_el('', Object(WP_Post), 0, Object(stdClass))
+#4 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '')
+#5 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/nav-menu-template.p in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/functions.php on line 92
+
+2019-03-18T23:54:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function special_nav_class(), 2 passed in /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-hook.php on line 288 and exactly 3 expected in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/functions.php:91
+Stack trace:
+#0 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-hook.php(288): special_nav_class(Array, Object(WP_Post))
+#1 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-walker-nav-menu.php(153): apply_filters('nav_menu_css_cl...', Array, Object(WP_Post), Object(stdClass), 0)
+#3 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-walker.php(145): Walker_Nav_Menu->start_el('', Object(WP_Post), 0, Object(stdClass))
+#4 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '')
+#5 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/nav-menu-template.p in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/functions.php on line 91
+
+2019-03-18T23:54:54+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function special_nav_class(), 2 passed in /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-hook.php on line 288 and exactly 3 expected in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/functions.php:91
+Stack trace:
+#0 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-hook.php(288): special_nav_class(Array, Object(WP_Post))
+#1 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-walker-nav-menu.php(153): apply_filters('nav_menu_css_cl...', Array, Object(WP_Post), Object(stdClass), 0)
+#3 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-walker.php(145): Walker_Nav_Menu->start_el('', Object(WP_Post), 0, Object(stdClass))
+#4 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '')
+#5 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/nav-menu-template.p in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/functions.php on line 91
+
+2019-03-18T23:55:41+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function special_nav_class(), 2 passed in /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-hook.php on line 288 and exactly 3 expected in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/functions.php:91
+Stack trace:
+#0 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-hook.php(288): special_nav_class(Array, Object(WP_Post))
+#1 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-walker-nav-menu.php(153): apply_filters('nav_menu_css_cl...', Array, Object(WP_Post), Object(stdClass), 0)
+#3 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-walker.php(145): Walker_Nav_Menu->start_el('', Object(WP_Post), 0, Object(stdClass))
+#4 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-walker.php(246): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '')
+#5 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/nav-menu-template.p in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/functions.php on line 91
+

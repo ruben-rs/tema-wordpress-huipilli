@@ -11,7 +11,8 @@
  * * MySQL settings
  * * Secret keys
  * * Database table prefix
- * * ABSPATH
+ * * ABSPATH 
+ *
  *
  * @link https://codex.wordpress.org/Editing_wp-config.php
  *

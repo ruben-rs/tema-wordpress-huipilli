@@ -10,9 +10,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Enables the previous "classic" editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports all plugins that extend this screen.
 
-== Description ==
+== Descriptio ==
 
-Classic Editor is an official plugin maintained by the WordPress team that restores the previous ("classic") WordPress editor and the "Edit Post" screen. It makes it possible to use plugins that extend that screen, add old-style meta boxes, or otherwise depend on the previous editor.
+Classic Edito is an official plugin maintained by the WordPress team that restores the previous ("classic") WordPress editor and the "Edit Post" screen. It makes it possible to use plugins that extend that screen, add old-style meta boxes, or otherwise depend on the previous editor.
 
 Classic Editor is an official WordPress plugin, and will be fully supported and maintained until at least 2022, or as long as is necessary.
 

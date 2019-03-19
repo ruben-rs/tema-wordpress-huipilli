@@ -1,0 +1,85 @@
+2019-03-19T00:16:49+00:00 CRITICAL Uncaught Error: Call to a member function menu_item() on null in /Applications/MAMP/htdocs/HUIPILLI/wp-content/plugins/woocommerce-menu-bar-cart/wp-menu-cart.php:498
+Stack trace:
+#0 /Applications/MAMP/htdocs/HUIPILLI/wp-content/plugins/woocommerce-menu-bar-cart/wp-menu-cart.php(571): WpMenuCart->wpmenucart_menu_item()
+#1 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-hook.php(286): WpMenuCart->wpmenucart_ajax('')
+#2 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/HUIPILLI/wp-admin/admin-ajax.php(167): do_action('wp_ajax_wpmenuc...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/HUIPILLI/wp-content/plugins/woocommerce-menu-bar-cart/wp-menu-cart.php on line 498
+
+2019-03-19T00:19:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function carrito_fragments(), 0 passed in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/functions.php on line 122 and exactly 1 expected in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/functions.php:114
+Stack trace:
+#0 /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/functions.php(122): carrito_fragments()
+#1 /Applications/MAMP/htdocs/HUIPILLI/wp-settings.php(479): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/HUIPILLI/wp-config.php(89): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/HUIPILLI/wp-load.php(37): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/HUIPILLI/wp-blog-header.php(13): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/HUIPILLI/index.php(17): require('/Applications/M...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/functions.php on line 114
+
+2019-03-19T00:28:17+00:00 CRITICAL syntax error, unexpected 'add_filter' (T_STRING) in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/functions.php on line 115
+
+2019-03-19T05:26:38+00:00 CRITICAL Cannot redeclare add_menuclass() (previously declared in /Applications/MAMP/htdocs/HUIPILLI/wp-content/plugins/cart-custom-rs/includes/functions.php:69) in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/functions.php on line 71
+
+2019-03-19T05:48:14+00:00 CRITICAL Uncaught Error: Call to undefined function get_sidebarfooter() in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/footer.php:5
+Stack trace:
+#0 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/template.php(704): require_once()
+#1 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/template.php(653): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/page.php(13): get_footer()
+#4 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/template-loader.php(77): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/HUIPILLI/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/HUIPILLI/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/footer.php on line 5
+
+2019-03-19T05:48:30+00:00 CRITICAL Uncaught Error: Call to undefined function get_sidebarfooter() in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/footer.php:5
+Stack trace:
+#0 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/template.php(704): require_once()
+#1 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/template.php(653): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/page.php(13): get_footer()
+#4 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/template-loader.php(77): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/HUIPILLI/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/HUIPILLI/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/footer.php on line 5
+
+2019-03-19T05:48:37+00:00 CRITICAL Uncaught Error: Call to undefined function get_sidebarfooter() in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/footer.php:5
+Stack trace:
+#0 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/template.php(704): require_once()
+#1 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/template.php(653): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/page.php(13): get_footer()
+#4 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/template-loader.php(77): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/HUIPILLI/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/HUIPILLI/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/footer.php on line 5
+
+2019-03-19T05:49:13+00:00 CRITICAL Uncaught Error: Call to undefined function get_sidebarfooter() in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/footer.php:5
+Stack trace:
+#0 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/template.php(704): require_once()
+#1 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/template.php(653): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/page.php(13): get_footer()
+#4 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/template-loader.php(77): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/HUIPILLI/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/HUIPILLI/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/footer.php on line 5
+
+2019-03-19T05:49:33+00:00 CRITICAL Uncaught Error: Call to undefined function get_sidebarfooter() in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/footer.php:2
+Stack trace:
+#0 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/template.php(704): require_once()
+#1 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/template.php(653): load_template('/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/page.php(13): get_footer()
+#4 /Applications/MAMP/htdocs/HUIPILLI/wp-includes/template-loader.php(77): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/HUIPILLI/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/HUIPILLI/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/HUIPILLI/wp-content/themes/HUIPILLI/footer.php on line 2
+

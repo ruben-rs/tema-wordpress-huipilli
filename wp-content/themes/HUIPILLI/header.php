@@ -7,92 +7,66 @@
 	<link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.css" rel='stylesheet' type='text/css' />
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
-	<!-- Custom Theme files -->
-	<link href="<?php echo get_template_directory_uri(); ?>/css/style.css" rel="stylesheet" type="text/css" media="all" />
+	
 	<!-- Custom Theme files -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; />
 	<meta name="keywords" content="" />
-	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!--webfont-->
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
 	<!---- tabs---->
-	<link type="text/css" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/easy-responsive-tabs.css" />
-	<script src="<?php echo get_template_directory_uri(); ?>/js/easyResponsiveTabs.js" type="text/javascript"></script>
-	<script type="text/javascript">
-	    $(document).ready(function () {
-	        $('#horizontalTab').easyResponsiveTabs({
-	            type: 'default', //Types: default, vertical, accordion           
-	            width: 'auto', //auto or any width like 600px
-	            fit: true,   // 100% fit in a container
-	            closed: 'accordion', // Start closed if in accordion view
-	            activate: function(event) { // Callback function if tab is switched
-	                var $tab = $(this);
-	                var $info = $('#tabInfo');
-	                var $name = $('span', $info);
-	                $name.text($tab.text());
-	                $info.show();
-	            }
-	        });
-
-	        $('#verticalTab').easyResponsiveTabs({
-	            type: 'vertical',
-	            width: 'auto',
-	            fit: true
-	        });
-	    });
-	</script>
+	<link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet" type="text/css" media="all" />
+	
 	<!---- tabs---->
 	<?php wp_head(); ?>
 </head>
 <body>
-	<div class="header">
-		<div class="container">
-			<div class="header-left">
-				
+
+	<nav class="navbar navbar-default navbar-fixed-to">
+	    <div class="container">
+	      <div class="navbar-header">
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	          <span class="sr-only">Toggle navigation</span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	        </button>
+			<a class="leftrs-li" href=""></a>
+	        <!-- <a class="navbar-brand" href="https://floreriayregalostere.com"><img class="logo" src="http://floreriayregalostere.com/wp-content/themes/Floreria/img/logo-tere.jpg"></a> -->
+	      </div>
+	      <div id="navbar" class="navbar-collapse collapse">
+	        
+	        <?php if (has_nav_menu( 'menu-left' ) ) : ?>	 
 				<?php 
 		        	wp_nav_menu(
 		        		array(
 		        			'theme_location' => 'menu-left',
-		        			'container_class' => 'top-menu',
-		        			'items_wrap' => '<ul>%3$s</ul>',
+		        			'container' => 'ul',
+		        			'menu_class' => 'nav navbar-nav navbar-left',
 		        		)
 		        	); 
 		        ?>			 
-				
-			</div>
-			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" alt=""></a>
-			</div>
-			<div class="header-right">
+			<?php endif; ?>
+			  
+	        <ul class="nav navbar-nav ">
+	        	<li><a class="center-li" href=""><?php get_sidebar('logo'); ?></a></li>
+	        </ul>
+	 
+	        <?php if (has_nav_menu( 'menu-right' ) ) : ?>	 
 				<?php 
 		        	wp_nav_menu(
 		        		array(
 		        			'theme_location' => 'menu-right',
-		        			'container_class' => 'top-menu',
-		        			'items_wrap' => '<ul>%3$s</ul>',
+		        			'container' => 'ul',
+		        			'menu_class' => 'nav navbar-nav navbar-right',
 		        		)
 		        	); 
-		        ?>		 
-				
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
+		        ?>			 
+			<?php endif; ?>
+	      </div><!--/.nav-collapse -->
+	    </div>
+	</nav>
 
-
- 	<nav>
-      <ul class="main-nav">
-        <?php 
-        	wp_nav_menu(
-        		array(
-        			'theme_location' => 'redes-sociales',
-        			'container_class'   => ""
-        		)
-        	); 
-        ?>
-      </ul>
-    </nav>
 
 
 

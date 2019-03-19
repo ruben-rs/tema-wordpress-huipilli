@@ -9,3 +9,44 @@ License: GNU General Public License v2 or later
 Tags: menu, slider, widgets, header, footer
 
 */
+.header {
+    border-bottom: 3px solid #ffffff;
+    background: #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+.top-menu ul li a {
+    display: block;
+    padding: 0.5em 0.5em 0 0.5em;
+    color: #e1119d;
+    border-bottom: 2px solid #ffffff;
+}
+.top-menu ul li a:hover, .top-menu ul li.active a {
+    border-bottom: 2px solid #e1119d;
+}
+.widget-logo{
+	text-align: center;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #f763c1;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #f763c1cf;
+    background-color: #ffffff;
+    border-bottom: 1px solid #f763c1;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #f763c1;
+    background-color: transparent;
+    border-bottom: 1px solid #f763c1;
+    transition: 3s;
+}
+footer {
+    background: #f763c1;
+    padding: 20px 0;
+}
