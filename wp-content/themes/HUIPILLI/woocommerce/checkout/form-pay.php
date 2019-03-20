@@ -19,6 +19,8 @@ defined( 'ABSPATH' ) || exit;
 
 
 
+
+
 $totals = $order->get_order_item_totals();
 ?>
 <form id="order_review" method="post">
